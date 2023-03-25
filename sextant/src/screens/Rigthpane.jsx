@@ -4,6 +4,7 @@ import  Card from '../components/Card'
 
 import IPAddress from '../components/IPAddress'
 import Banner from '../components/Banner'
+import Latency from '../components/Latency'
 
 
 function Rigthpane() {
@@ -16,6 +17,7 @@ function Rigthpane() {
         <div>
         <IPAddress  url={`https://api64.ipify.org?format=json`} for={`IPv6`} / >
         <IPAddress  url={`https://api.ipify.org?format=json`} for={`IPv4`} / >
+        <Latency />
         </div>
         
           

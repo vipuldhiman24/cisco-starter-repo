@@ -1,0 +1,15 @@
+.container{
+    
+    display:block;
+    margin:100px;
+   
+   
+    width:30%;
+    heigth:30px;
+    border-radius:15px;
+    margin-left:30px;
+    margin:5px;
+    font-size:15px;
+    background-color: #34444c ;
+
+}

@@ -16,7 +16,7 @@ export default function IPAdress(props) {
           ,)
   return (
      <>
-     <div className='conatiner' >
+     <div className='conatiner1' >
       
      <Card  type={props.for} Name={ip} ></Card>
      </div>
