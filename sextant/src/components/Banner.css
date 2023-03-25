@@ -1,0 +1,15 @@
+.Banner {
+    margin: 1.5vw;
+    margin-left:25px;
+    
+
+    text-align: center;
+    width:50%;
+    color: black;
+    background-color: grey;
+    border: 0.25vw solid  #70798c ;
+    border-radius: 30px;
+}
+p{
+    font-size:20px;
+}

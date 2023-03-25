@@ -1,10 +1,10 @@
 .container{
+    
     display:block;
     float:left;
     justify-content:center;
-    border:1px solid ##303a51;
     width:30%;
-    heigth:relative;
+    heigth:30px;
     border-radius:15px;
     margin-left:30px;;
 
@@ -13,6 +13,7 @@ p{
     margin:5px;
     font-size:15px;
     color: #34444c ;
+  
 }
 a{
     margin:5px;

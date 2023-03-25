@@ -1,7 +1,6 @@
 
 import  Divider  from './screens/Divider';
 import './App.css';
-import Banner from './screens/Banner';
 import Navabr from './components/Navabr';
 function App() {
   return (

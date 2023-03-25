@@ -2,21 +2,26 @@ import React from 'react'
 import './Rigthpane.css'
 import  Card from '../components/Card'
 
+import IPAddress from '../components/IPAddress'
+import Banner from '../components/Banner'
+
+
 function Rigthpane() {
   return (
     <div className='main'>
-        <header>
+        {/* <header>
               <h1 class="header-1">Network Analytics</h1>
-        </header>
-        <div class="container">
-  
-        <div class="row ">
-          <Card IPaddress={"192.654.125.125"} metric1={25} metric2={26}/>
-       
-        
+        </header> */}
+        <Banner bannerText="Sextant" />
+        <div>
+        <IPAddress  url={`https://api64.ipify.org?format=json`} for={`IPv6`} / >
+        <IPAddress  url={`https://api.ipify.org?format=json`} for={`IPv4`} / >
         </div>
+        
+          
+        
   
-      </div>
+      
       </div>
   )
 }
